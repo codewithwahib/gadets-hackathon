@@ -1,9 +1,8 @@
-
 import { type SchemaTypeDefinition } from 'sanity';
 
-export const car: SchemaTypeDefinition = {
-  name: 'car',
-  title: 'Car Accessories',
+export const carCareProducts: SchemaTypeDefinition = {
+  name: 'cables',
+  title: 'Cables',
   type: 'document',
   fields: [
     {

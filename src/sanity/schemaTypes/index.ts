@@ -2,16 +2,16 @@ import { SchemaTypeDefinition } from 'sanity';
 import { product } from './prducts'
 import { hero } from './hero';
 import { trending } from './trending'
-import { bike } from './bike'
-import { car } from './car'
+import { bike } from './gaming-home'
+import { car } from './kitchen'
 import { sale } from './sale'
-import { searchByCars } from  './search-by-cars'
-import { searchByBikes } from  './search-by-bikes'
-import { carAccessories } from  './car-accessories'
-import { bikeAccessories } from  './bike-accessories'
-import { bikeParts } from  './bike-parts'
-import { carCareProducts } from  './car-care-products'
-import { touringGadgets } from  './touring-gadgets'
+import { searchByCars } from  './phone-cases'
+import { searchByBikes } from  './gaming'
+import { carAccessories } from  './charging'
+import { bikeAccessories } from  './laptop'
+import { bikeParts } from  './ear-buds'
+import { carCareProducts } from  './cables'
+import { touringGadgets } from  './smart-watches.'
 import attentionBar  from './attentionBar';
 
 export const schema: { types: SchemaTypeDefinition[] } = {

@@ -1,8 +1,8 @@
 import { type SchemaTypeDefinition } from 'sanity';
 
-export const bikeAccessories: SchemaTypeDefinition = {
-  name: 'bike-accessories',
-  title: 'Bike Accessories',
+export const searchByBikes: SchemaTypeDefinition = {
+  name: 'search-by-bikes',
+  title: 'Gaming',
   type: 'document',
   fields: [
     {
@@ -51,4 +51,3 @@ export const bikeAccessories: SchemaTypeDefinition = {
     },
   ],
 };
-
